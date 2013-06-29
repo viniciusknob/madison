@@ -19,7 +19,7 @@ Madison necessita de regras para funcionar. As regras são na verdade a configura
 
 ## Como usar
 
-**Vamos usar como exemplo as verificações para validar um CPF:**
+Vamos usar como exemplo as verificações para validar um CPF:
 
 	
 ```java
@@ -45,6 +45,7 @@ Considerando que um CPF:
 - Não pode ser null
 - Não pode ser empty
 - Não pode ter length != 11
+
 Então temos:
 
 
@@ -86,7 +87,7 @@ Specification specification = new Specification();
 specification.appendRule(new RuleCPF("93556305062"));
 ```
 
-**Para executar Madison, veja:**
+Para executar Madison, veja:
 
 
 ```java
